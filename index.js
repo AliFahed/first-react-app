@@ -1,7 +1,33 @@
+function Navbar() {
+  return (
+    <nav>
+      <div>
+        <h1>React</h1>
+      </div>
+
+      <div>
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+        </ul>
+      </div>
+    </nav>
+  );
+}
+
+function MainContent() {
+  return (
+    <main>
+      <h2>Welcome to React page!</h2>
+      <p>React is a JavaScript Library.</p>
+    </main>
+  );
+}
+
 ReactDOM.render(
-  <ul>
-    <li>React</li>
-    <li>React-native</li>
-  </ul>,
+  <div>
+    <Navbar />
+    <MainContent />
+  </div>,
   document.getElementById("root")
 );
