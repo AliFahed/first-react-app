@@ -1,10 +1,17 @@
-const page = (
-  <div>
-    <h1 className="header">This is JSX</h1>
-    <p>This is a paragraph</p>
-  </div>
+const navbar = (
+  <nav>
+    <div>
+      <h1>React</h1>
+    </div>
+
+    <div>
+      <ul>
+        <li>Pricing</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+  </nav>
 );
 
-console.log(page);
-
-ReactDOM.render(page, document.getElementById("root"));
+ReactDOM.render(navbar, document.getElementById("root"));
