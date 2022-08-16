@@ -1,1 +1,7 @@
-ReactDOM.render(<h1>Hello, World!</h1>, document.getElementById("root"));
+ReactDOM.render(
+  <ul>
+    <li>React</li>
+    <li>React-native</li>
+  </ul>,
+  document.getElementById("root")
+);
